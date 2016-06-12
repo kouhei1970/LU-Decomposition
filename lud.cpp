@@ -5,17 +5,17 @@ short matPrint(double* mat, short M, short N);
 
 int main(){
 
-  double A[25]={
+  double A[9]={
     1.0, 2.0, 3.0,
     4.0, 5.0, 6.0,
     6.0, 8.0, 9.0
   };
-  double B[25]={0.0};
+  double B[9]={0.0};
 
   double sum;
   short i,j,k;
-  short m=5;
-  short n=5;
+  short m=3;
+  short n=3;
 
   for (i=0; i<m; i++)
   {
